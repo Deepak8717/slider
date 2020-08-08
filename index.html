@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Slide Show</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+   </head>
+<body>
+    <div class="slideShow-container">
+        <div class="mySlides fade">
+            <div class="numberText">1/3</div>
+            <img src="images/jorg-angeli-CAMwIxYk5Xg-unsplash.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numberText">2/3</div>
+            <img src="images/k-mitch-hodge-VhBvvZ8tyrU-unsplash.jpg" style="width:100%">
+            <div class="text">Caption two</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numberText">3/3</div>
+            <img src="images/trevor-cole-ZDlMb4tVE40-unsplash.jpg" style="width:100%">
+            <div class="text">Caption three</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
